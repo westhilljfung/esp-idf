@@ -117,7 +117,7 @@ We have two bits to control the interrupt:
    interrupt.
 
 */
-
+#define LOG_LOCAL_LEVEL ESP_LOG_VERBOSE
 #include <string.h>
 #include "driver/spi_common.h"
 #include "driver/spi_master.h"
